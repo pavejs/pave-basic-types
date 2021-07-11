@@ -1,0 +1,14 @@
+{
+  "name": "pave-basic-types",
+  "version": "1.0.0",
+  "description": "A set of basic scalar types for Pave",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavejs/pave-basic-types.git"
+  },
+  "author": "Nathaniel Pendy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavejs/pave-basic-types/issues"
+  }
+}
