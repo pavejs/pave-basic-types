@@ -1,5 +1,5 @@
 # Pave Basic Types
-## A set of basic types for Pave
+A set of basic types for Pave
 
 ## Included Types
 
