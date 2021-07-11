@@ -41,6 +41,6 @@ And now you have your basic scalar types defined
 
 All errors thrown by values that don't fit types fit the same form;
 
-> Expected a value of type (type being referenced) but was provided value (insert value here)
+> Expected a value of type **Type** but was provided value **Value**
 
 This is useful in the case that you'd like to implement your own wrapper error catching function, as you'll be able to predict the format of the caught error, and be able to do from there as you please.
