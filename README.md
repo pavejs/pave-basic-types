@@ -49,7 +49,7 @@ String accepts three arguments; trim (defaulted to true), maxLength, and minLeng
 
 - **trim**: whether or not input value is sanitized with .trim()
 - **maxLength**: max length of input value **after trimming, if the argument trim !== false**
-- **minLength**: min length of input value **after trimming, if the argument trim !== false **
+- **minLength**: min length of input value **after trimming, if the argument trim !== false**
 
 ## Footnotes
 
