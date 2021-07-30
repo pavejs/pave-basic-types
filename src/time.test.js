@@ -7,5 +7,5 @@ const { resolve } = time;
 export default {
   matchNull: () => assert.equal(resolve({ value: ' ' }), null),
   valid: () => assert.ok(resolve({ value: '00:00:00.000Z' })),
-  errors: () => assert.throws(resolve({ value: 'randomstring' })),
+  errors: () => assert.fail(resolve({ value: 'randomstring' }), Error),
 }
