@@ -1,6 +1,7 @@
 {
   "name": "pave-basic-types",
-  "version": "1.0.1",
+  "type": "module",
+  "version": "1.0.2",
   "description": "A set of basic scalar types for Pave",
   "main": "src/index.js",
   "module": "src/index.js",
