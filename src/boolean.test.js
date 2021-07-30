@@ -5,8 +5,8 @@ import boolean from './boolean.js';
 const { resolve } = boolean;
 
 export default {
-  matchTrue: () => assert.equal(resolve('t'), true),
-  matchFalse: () => assert.equal(resolve('f'), true),
-  invalid: () => assert.notEqual(resolve(false), true),
-  errors: () => assert.throws(resolve('randomstring')),
+  matchTrue: () => assert.equal(resolve({ value: 't' }), true),
+  matchFalse: () => assert.equal(resolve({ value: 'f' }), true),
+  invalid: () => assert.notEqual(resolve({ value: false }), true),
+  errors: () => assert.throws(resolve({ value: 'random' })),
 }
