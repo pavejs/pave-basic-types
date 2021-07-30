@@ -29,7 +29,7 @@ export default {
     }
 
     if (maxLength != null && value.length > maxLength) {
-      throw new PublicError(
+      throw new Error(
         `${value} does not meet maxLength requirement of ${maxLength}`
       );
     }
