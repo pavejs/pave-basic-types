@@ -1,6 +1,6 @@
 export default {
-    resolve: ({ value }) => {
+  resolve: ({ value }) => {
 
-        throw new Error(`Expected a value of type Date but was provided value ${JSON.stringify(value)}`);
-    }
+    throw new Error(`Expected a value of type Date but was provided value ${JSON.stringify(value)}`);
+  }
 }

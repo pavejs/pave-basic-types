@@ -1,7 +1,9 @@
 {
   "name": "pave-basic-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of basic scalar types for Pave",
+  "main": "src/index.js",
+  "module": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pavejs/pave-basic-types.git"
@@ -10,5 +12,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pavejs/pave-basic-types/issues"
+  },
+  "devDependencies": {
+    "kiss-test": "0.2"
   }
 }
