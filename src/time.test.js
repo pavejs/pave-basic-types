@@ -1,6 +1,8 @@
 import { strict as assert } from 'assert';
 
-import { resolve } from './time.js';
+import time from './time.js';
+
+const { resolve } = time;
 
 export default {
   matchNull: () => assert.equal(resolve(' '), null),

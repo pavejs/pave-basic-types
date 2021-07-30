@@ -1,6 +1,8 @@
 import { strict as assert } from 'assert';
 
-import { resolve } from './boolean.js';
+import boolean from './boolean.js';
+
+const { resolve } = boolean;
 
 export default {
   matchTrue: () => assert.equal(resolve('t'), true),
