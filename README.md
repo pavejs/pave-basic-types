@@ -4,7 +4,6 @@ A set of basic types for Pave
 ## Included Types
 
 - String
-- Int
 - Number
 - Object
 - Time
@@ -27,9 +26,9 @@ Simply include this in your package.json and then spread this into your Pave sch
 >
 > // ...or, if you prefer a selective choosing of the types provided by this package
 > 
-> import basicTypes from 'pave-basic-types';
+> import types from 'pave-basic-types';
 >
-> const { string, boolean, ...etc } = basicTypes;
+> const { string, boolean, ...etc } = types;
 >
 > export default {<br>
 > &nbsp;string,<br>

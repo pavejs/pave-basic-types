@@ -1,10 +1,10 @@
 import { strict as assert } from 'assert';
 
-import time from './time.js';
+import date from './date.js';
 
-const { resolve } = time;
+const { resolve } = date;
 
 export default {
   matchNull: () => assert.equal(resolve({ value: ' ' }), null),
-  valid: () => assert.ok(resolve({ value: '00:00:00.000Z' })),
+  valid: () => assert.ok(resolve({ value: '2021-01-01' })),
 }
