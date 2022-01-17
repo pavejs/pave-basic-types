@@ -38,18 +38,6 @@ Simply include this in your package.json and then spread this into your Pave sch
 
 And now you have your basic scalar types defined
 
-## Arguments by Type
-
-Certain arguments accept typeArgs as outlined in pave type arguments, described [here](https://pavejs.org/docs/schemas-and-types/scalar-types/#arguments-typeargs)
-
-### String
-
-String accepts three arguments; trim (defaulted to true), maxLength, and minLength.
-
-- **trim**: whether or not input value is sanitized with .trim()
-- **maxLength**: max length of input value **after trimming**, if the argument trim !== false
-- **minLength**: min length of input value **after trimming**, if the argument trim !== false
-
 ## Footnotes
 
 All errors thrown by values that don't fit types fit the same form;
